@@ -1,0 +1,50 @@
+:root {
+    --bg-color: #2d323b;
+    --main-color: #f7f3eb;
+    --second-bg-color: #707377;
+    --third-bg-color: #a7a9ad;
+    --text-color: #fff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: var(--bg-color);
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: var(--second-bg-color);
+}
+.section {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: var(--third-bg-color);
+}
+
+input {
+    background-color: var(--main-color);
+}
+
+button {
+    background-color: var(--third-bg-color);
+    color: var(--text-color);
+}
+
+input, button {
+    margin: 5px 0;
+    padding: 10px;
+    width: 94%;
+    font-size: 16px;
+}
+.result {
+    text-align: left;
+    margin-top: 20px;
+}
